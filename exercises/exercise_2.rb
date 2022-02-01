@@ -17,3 +17,5 @@ puts "----------"
 @store2 = Store.second
 # update first store
 @store1.update(name: "Shershah")
+puts @store1.name
+puts @store2.name
